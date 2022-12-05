@@ -1,0 +1,5 @@
+#!ipxe
+
+dhcp
+
+chain tftp://34.168.137.233/ipxe/menu.ipxe
